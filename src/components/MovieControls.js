@@ -6,7 +6,6 @@ export const MovieControls = ({ type, movie }) => {
     removeMovieFromWatchlist,
     addMovieToWatched,
     moveToWatchlist,
-    removeFromWatched,
   } = useContext(GlobalContext);
 
   return (
