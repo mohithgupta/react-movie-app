@@ -11,7 +11,7 @@ export const Add = () => {
     setQuery(e.target.value);
 
     fetch(
-      `https://api.themoviedb.org/3/search/movie?api_key=a7b3791b53e16e00f5610e35c8958bcf&language=en-US&page=1&include_adult=false&query=${e.target.value}`
+      `https://api.themoviedb.org/3/search/movie?api_key=3478778f0e0b5e63b9a26d9ab1d59bc4&language=en-US&page=1&include_adult=false&query=${e.target.value}`
     )
       .then((res) => res.json())
       .then((data) => {
