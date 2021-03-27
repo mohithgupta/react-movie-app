@@ -27,7 +27,12 @@ export const MovieControls = ({ type, movie }) => {
 
       {type === "watched" && (
         <>
-          <button className="ctrl-btn" onClick={() => moveToWatchlist(movie)}>
+          <button className="ctrl-btn" onClick={() =>{
+            moveToWatchlist(movie)
+            removeMovieFromWatchlist(movie.id)
+          }
+        }
+        >
             <i className="fa-fw fa fa-times"></i>
           </button>
 
