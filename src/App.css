@@ -81,7 +81,7 @@ header .inner-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding:  10px 0 ;
 }
 
 header a {
@@ -230,8 +230,9 @@ header .nav-links li:last-child {
   header .inner-content{
     display: block;
   }
-  li{
-    margin: 10px 10px 0;
+  li:not(:last-child){
+    margin: 15px 5px 0;
+    /* border-right: #ddd6d6 1px solid; */
   }
   .count-pill{
     padding: 5px 10px;
