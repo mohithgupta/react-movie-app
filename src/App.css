@@ -151,8 +151,8 @@ header .nav-links li:last-child {
 
 .result-card .poster-wrapper img,
 .filler-poster {
-  width: 75px;
-  height: 113px;
+  width: 150px;
+  height: 200px;
   background-color: #dbdada;
   border-radius: 5px;
   margin-right: 15px;
